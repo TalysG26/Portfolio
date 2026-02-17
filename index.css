@@ -149,9 +149,9 @@ body{
 .skills h3{font-size:1.4rem;margin:0 0 8px;color:var(--text)}
 .skills-sub{color:var(--muted);margin:0 0 18px}
 .skills-grid{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-.skill-badge{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;padding:0;border-radius:12px;background:linear-gradient(90deg,rgba(6,182,212,0.06),rgba(99,102,241,0.04));color:var(--text);font-weight:700;font-size:.92rem;border:1px solid rgba(255,255,255,0.03);transition:transform .16s ease,box-shadow .18s ease}
-.skill-badge:hover{transform:translateY(-6px);box-shadow:0 14px 40px rgba(2,6,23,0.35)}
-.skill-icon{width:22px;height:22px;flex:0 0 22px;color:var(--accent)}
+.skill-badge{display:inline-flex;align-items:center;justify-content:center;width:72px;height:72px;padding:0;border-radius:14px;background:linear-gradient(90deg,rgba(6,182,212,0.06),rgba(99,102,241,0.04));color:var(--text);font-weight:700;font-size:.92rem;border:1px solid rgba(255,255,255,0.03);transition:transform .16s ease,box-shadow .18s ease}
+.skill-badge:hover{transform:translateY(-6px);box-shadow:0 18px 46px rgba(2,6,23,0.38)}
+.skill-icon{width:36px;height:36px;flex:0 0 36px;color:var(--accent)}
 
 @media (max-width:720px){
   .skills h3,.skills-sub{text-align:center}
